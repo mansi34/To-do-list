@@ -7,7 +7,7 @@ import Todo from './Todo';
 function App() {
   return (
     <>
-      <MyForm />
+      {/* <MyForm /> */}
       <Todo />
     </>
   );

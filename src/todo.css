@@ -1,0 +1,23 @@
+table,
+tr,
+td {
+  border: 2px solid black;
+  align-items: center;
+  background-color: rgb(157, 202, 187);
+  margin-left: 520px;
+  margin-top: 0px;
+}
+
+h1 {
+  margin-left: 580px;
+  margin-top: 150px;
+}
+
+button {
+  margin-left: 20px;
+  padding: 5px 15px;
+}
+
+input {
+  padding: 5px 15px;
+}
