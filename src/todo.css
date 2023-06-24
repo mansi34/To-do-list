@@ -1,16 +1,27 @@
-table,
-tr,
-td {
-  border: 2px solid black;
-  align-items: center;
-  background-color: rgb(157, 202, 187);
-  margin-left: 520px;
-  margin-top: 0px;
+.toDo_Main {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 14%;
+}
+
+.toDo_add,
+.toDo_list_show {
+  text-align: center;
+}
+
+.toDo_list {
+  text-align: center;
+  padding: 7%;
+  padding-left: 22%;
+  display: flex;
+}
+
+.toDo_list_delete {
+  float: right;
 }
 
 h1 {
-  margin-left: 580px;
-  margin-top: 150px;
+  text-align: center;
 }
 
 button {
@@ -20,4 +31,9 @@ button {
 
 input {
   padding: 5px 15px;
+}
+
+.delete {
+  border-radius: 50%;
+  float: right;
 }
